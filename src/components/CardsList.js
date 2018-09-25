@@ -30,7 +30,7 @@ const BeanContainer = styled.div`
   background-position: 77% 0%;
   ${media.mid`
     background-position: center;
-    opacity: 1;
+    opacity: 0;
   `};
 `;
 
