@@ -18,6 +18,7 @@ const MainContainer = styled.div`
 `;
 
 const BeanContainer = styled.div`
+  opacity: 0;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -27,7 +28,6 @@ const BeanContainer = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 77% 0%;
-  opacity: 0.8;
   ${media.mid`
     background-position: center;
     opacity: 1;
@@ -91,7 +91,7 @@ class CardsList extends Component {
             a look at CV.
           </Card>
         </CardsContainer>
-        <BeanContainer />
+        <BeanContainer id="bean-div" />
       </MainContainer>
     );
   }
