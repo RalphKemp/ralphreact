@@ -20,10 +20,10 @@ const MainContainer = styled.div`
 const BeanContainer = styled.div`
   opacity: 0;
   position: absolute;
-  top: 0px;
+  bottom: 0px;
   left: 0px;
   width: 100vw;
-  height: 100vh;
+  height:100vh;
   background-image: url(${bean});
   background-size: cover;
   background-repeat: no-repeat;

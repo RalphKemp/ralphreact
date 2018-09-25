@@ -6,7 +6,8 @@ const HeaderDiv = styled.div`
   width: 100vw;
   height: 60px;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
+  top: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
