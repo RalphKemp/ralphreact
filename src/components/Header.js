@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { media } from '../Sizing';
+import { media } from '../helpers/Sizing';
 
 const HeaderDiv = styled.div`
   width: 100vw;

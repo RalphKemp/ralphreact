@@ -1,21 +1,36 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import { media } from '../Sizing';
-import bean from '../images/bean2.jpg';
+import { media } from '../helpers/Sizing';
+import { fadeCards } from '../helpers/fadeIns';
+import bean from '../images/bean2.png';
 
 const MainContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: url(${bean}), linear-gradient(#f5efef, #d6e0e6);
+  background-image: linear-gradient(#f5efef, #d6e0e6);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 77% 0%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   ${media.mid`
     justify-content: flex-start;
+  `};
+`;
+
+const BeanContainer = styled.div`
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(${bean});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 77% 0%;
+  opacity: 0.8;
+  ${media.mid`
     background-position: center;
+    opacity: 1;
   `};
 `;
 
@@ -23,9 +38,11 @@ const CardsContainer = styled.div`
   height: 500px;
   width: 500px;
   margin-top: 52px;
+  z-index: 100;
 `;
 
 const Card = styled.div`
+  opacity: 0;
   margin: 20px 40px;
   height: auto;
   background-color: #fcfcfc;
@@ -43,15 +60,20 @@ const Card = styled.div`
 `;
 
 class CardsList extends Component {
+
+  componentDidMount() {
+    fadeCards();
+  }
+
   render() {
     return (
       <MainContainer>
         <CardsContainer>
-          <Card>
+          <Card id="card-one">
             Hello, my name's Ralph and I'm a full-stack web developer, music
             producer, and lover of all things creative.
           </Card>
-          <Card>
+          <Card id="card-two">
             I'm primarily a MERN stack developer, currently working on{" "}
             <a href="https://frgt.io"> frgt.io</a>.<br/><br/> I have taught at{" "}
             <a href="https://www.lewagon.com"> Le Wagon</a>, and am currently
@@ -69,6 +91,7 @@ class CardsList extends Component {
             a look at CV.
           </Card>
         </CardsContainer>
+        <BeanContainer />
       </MainContainer>
     );
   }
