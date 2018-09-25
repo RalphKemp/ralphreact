@@ -13,6 +13,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ralphreact && npm run build --prefix ralphreact"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm build"
   }
 }
