@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { media } from '../helpers/Sizing';
 import { fadeCards } from '../helpers/fadeIns';
 import bean from '../images/bean2.png';
+import CV from '../images/Ralph_Kemp_CV_2018.pdf';
 
 const MainContainer = styled.div`
   width: 100vw;
@@ -86,9 +87,9 @@ class CardsList extends Component {
               target="_top"
             >
               Drop me an message,
-             </a> see my{" "}
-            <a href="https://www.linkedin.com/in/ralphkemp">LinkedIn</a> or take
-            a look at CV.
+             </a> see my
+            <a href="https://www.linkedin.com/in/ralphkemp"> LinkedIn</a> or take
+            a look at my <a href={CV} target="">CV</a>.
           </Card>
         </CardsContainer>
         <BeanContainer id="bean-div" />
