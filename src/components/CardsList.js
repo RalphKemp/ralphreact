@@ -7,7 +7,8 @@ import CV from '../images/Ralph_Kemp_CV_2018.pdf';
 
 const MainContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  position: relative;
   background-image: linear-gradient(#f5efef, #d6e0e6);
   background-size: cover;
   display: flex;
@@ -15,6 +16,10 @@ const MainContainer = styled.div`
   align-items: flex-start;
   ${media.mid`
     justify-content: flex-start;
+    height: 100vh;
+  `};
+  ${media.tablet`
+    height: 100vh;
   `};
 `;
 
@@ -24,7 +29,7 @@ const BeanContainer = styled.div`
   bottom: 0px;
   left: 0px;
   width: 100vw;
-  height:100vh;
+  height: 100%;
   background-image: url(${bean});
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,10 +41,13 @@ const BeanContainer = styled.div`
 `;
 
 const CardsContainer = styled.div`
-  height: 500px;
+  height: 100vh;
   width: 500px;
   margin-top: 52px;
   z-index: 100;
+  ${media.mid`
+    height: 500px;
+  `};
 `;
 
 const Card = styled.div`
@@ -48,14 +56,14 @@ const Card = styled.div`
   height: auto;
   background-color: #fcfcfc;
   font-family: "Work Sans", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   padding: 18px;
   border-radius: 10px;
   box-shadow: 3px 3px 6px -1px #bab1ba;
   line-height: 1.4;
   ${media.mid`
-    width: 400px;
-    font-size: 13px;
+    width: 450px;
+    font-size: 14px;
     margin: 20px 0px 20px 20px;
   `};
 `;
