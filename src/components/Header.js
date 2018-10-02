@@ -11,6 +11,7 @@ const HeaderDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 100;
   ${media.mid`
     justify-content: flex-start;
   `};
@@ -22,6 +23,7 @@ const RalphLogo = styled.h1`
   color: #533737;
   ${media.mid`
     margin-left: 22px;
+    font-size: 24px;
   `};
 `
 
