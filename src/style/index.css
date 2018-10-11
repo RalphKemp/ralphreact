@@ -6,10 +6,8 @@ html {
   height: 100%;
 }
 
-body, p{
+body {
+  font-feature-settings: "liga", "kern";
   height: 100%;
   margin: 0px;
-  font-family: 'Work Sans', sans-serif;
 }
-
-

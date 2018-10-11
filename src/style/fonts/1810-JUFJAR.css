@@ -1,0 +1,114 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2018 Schwartzco Inc.
+        License: 1810-JUFJAR
+*/
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-BlackItalic-Web.woff2') format('woff2'), url('StyreneB-BlackItalic-Web.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+/*
+.StyreneB-BlackItalic-Web {
+  font-family: 'Styrene B Web';
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+}
+*/
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Black-Web.woff2') format('woff2'), url('StyreneB-Black-Web.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-BoldItalic-Web.woff2') format('woff2'), url('StyreneB-BoldItalic-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Bold-Web.woff2') format('woff2'), url('StyreneB-Bold-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-MediumItalic-Web.woff2') format('woff2'), url('StyreneB-MediumItalic-Web.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Medium-Web.woff2') format('woff2'), url('StyreneB-Medium-Web.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-RegularItalic-Web.woff2') format('woff2'), url('StyreneB-RegularItalic-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Regular-Web.woff2') format('woff2'), url('StyreneB-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-LightItalic-Web.woff2') format('woff2'), url('StyreneB-LightItalic-Web.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Light-Web.woff2') format('woff2'), url('StyreneB-Light-Web.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-ThinItalic-Web.woff2') format('woff2'), url('StyreneB-ThinItalic-Web.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Styrene B Web';
+  src: url('StyreneB-Thin-Web.woff2') format('woff2'), url('StyreneB-Thin-Web.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+}

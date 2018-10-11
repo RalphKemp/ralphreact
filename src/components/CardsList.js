@@ -14,6 +14,10 @@ const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  font-family: 'Styrene B Web';
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
   ${media.mid`
     justify-content: flex-start;
     height: 100vh;
@@ -55,14 +59,19 @@ const Card = styled.div`
   margin: 20px 40px;
   height: auto;
   background-color: #fcfcfc;
-  font-family: "Work Sans", sans-serif;
   font-size: 13px;
   padding: 18px;
   border-radius: 10px;
   box-shadow: 3px 3px 6px -1px #bab1ba;
   line-height: 1.4;
+  a {
+    text-decoration: none;
+    :visited {
+      color: #1622ee;
+    }
+  }
   ${media.mid`
-    width: 450px;
+    width: 495px;
     font-size: 14px;
     margin: 20px 0px 20px 20px;
   `};
@@ -84,7 +93,7 @@ class CardsList extends Component {
           </Card>
           <Card id="card-two">
             I'm primarily a MERN stack developer, currently working on{" "}
-            <a href="https://frgt.io"> frgt.io</a>.<br/><br/> I have taught at{" "}
+            <a href="https://frgt.io"> <strong>frgt.io</strong></a>.<br/><br/> I have taught at{" "}
             <a href="https://www.lewagon.com"> Le Wagon</a>, and am currently
             working freelance. I've been writing and producing music for the
             past 10 years, mainly using Logic Pro X. I speak Spanish, and am

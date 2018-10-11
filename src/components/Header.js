@@ -19,7 +19,10 @@ const HeaderDiv = styled.div`
 
 const RalphLogo = styled.h1`
   font-size: 22px;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Styrene B Web';
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
   color: #533737;
   ${media.mid`
     margin-left: 22px;
@@ -31,7 +34,7 @@ const Header = () => {
   return (
     <HeaderDiv>
       <RalphLogo>
-        RALPH KEMP
+        ralph kemp.
       </RalphLogo>
     </HeaderDiv>
   );
