@@ -61,7 +61,7 @@ const Card = styled.div`
   background-color: #fcfcfc;
   font-size: 13px;
   padding: 18px;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 3px 3px 6px -1px #bab1ba;
   line-height: 1.4;
   a {
@@ -71,7 +71,7 @@ const Card = styled.div`
     }
   }
   ${media.mid`
-    width: 495px;
+    width: 465px;
     font-size: 14px;
     margin: 20px 0px 20px 20px;
   `};
@@ -88,16 +88,14 @@ class CardsList extends Component {
       <MainContainer>
         <CardsContainer>
           <Card id="card-one">
-            Hello, my name's Ralph and I'm a full-stack web developer, music
-            producer, and lover of all things creative.
+            Hello, my name's Ralph and I'm a Javascript developer currently working at{" "}
+            <a href="https://cloudlineapp.com"> <strong>Cloudline</strong></a>. Lover of all things creative.
           </Card>
           <Card id="card-two">
-            I'm primarily a MERN stack developer, currently working on{" "}
-            <a href="https://frgt.io"> <strong>frgt.io</strong></a>.<br/><br/> I have taught at{" "}
-            <a href="https://www.lewagon.com"> Le Wagon</a>, and am currently
-            working freelance. I've been writing and producing music for the
-            past 10 years, mainly using Logic Pro X. I speak Spanish, and am
-            studying Korean. I also illustrate and continuously doodle - my
+            I have taught at{" "}
+            <a href="https://www.lewagon.com"> <strong>Le Wagon</strong></a>, and am developing{" "}
+            <a href="https://frgt.io"> <strong>frgt.io</strong></a>, a productivity app due for release
+            late 2019. I also illustrate and continuously doodle - my
             latest drawings will be on here soon.<br/><br/>
             <a
               href="mailto:ralphk3mp@gmail.com?Subject=A%20Hello"
